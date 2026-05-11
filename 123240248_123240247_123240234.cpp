@@ -42,7 +42,6 @@ void tambahAtlet() {
         }
     } while (true);
 
-    // Cek apakah masih ada slot untuk menambah atlet
     if (jumlahAtlet + jumlahdata > MAX_ATLET) {
         cout << "Kapasitas penuh! Hanya bisa menambah " << MAX_ATLET - jumlahAtlet << " atlet lagi.\n";
         return;
